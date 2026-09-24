@@ -25,7 +25,7 @@ export default function Landing() {
                   to="/login"
                   className="btn btn-light btn-lg"
                 >
-                  Get Started
+                  Get Startedteg
                 </Link>
 
                 <Link
