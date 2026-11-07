@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #263238;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.hero {
+  background: linear-gradient(
+    135deg,
+    #173f35,
+    #2d6a4f
+  );
+  color: #fff;
+  border-radius: 24px;
+}
+
+.book-card {
+  height: 100%;
+  transition: 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.book-cover {
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8f1ed;
+  font-size: 3rem;
+}
+
+.stat-card {
+  border: 0;
+  border-radius: 18px;
+}
+
+.page-card {
+  border: 0;
+  border-radius: 18px;
+}
+
+.auth-box {
+  max-width: 460px;
+  margin: 60px auto;
+}
+
+.small-muted {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
